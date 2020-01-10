@@ -56,7 +56,7 @@ p
 	width:auto;
 }
 .dropdownmenu a {
-	background: #30A6E6;
+	background: #000080;
 	color: #FFFFFF;
 	display: block;
 	font: bold 14px/20px sans-serif;
@@ -68,9 +68,13 @@ p
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
+	
+	
+  
+  border-radius: 20px;
 }
 .dropdownmenu li:hover a {
-	background: #000000;
+	background: #B7950B ;/*color ocre*/
 }
 #submenu {
 	left: 0;
@@ -90,8 +94,8 @@ li:hover ul#submenu {
 	width: 100%;
 }
 #submenu a:hover {
-	background: #FA8072;
+	background: #873600;/*color naranja*/
 }
 #submenu a {
-	background-color:#000000;
+	background-color:#B7950B ;/*color ocre*/
 }
